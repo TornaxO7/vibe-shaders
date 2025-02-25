@@ -6,6 +6,8 @@ Modified from <https://www.shadertoy.com/view/MslGWN>.
 
 # Code
 
+- `amount_bars = 60`
+
 ```toml
 [[shader_code]]
 Glsl = """
