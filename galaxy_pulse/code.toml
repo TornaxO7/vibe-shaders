@@ -64,10 +64,10 @@ void main() {
 	p += .2 * vec3(sin(iTime / 16.), sin(iTime / 12.),  sin(iTime / 128.));
 
 	float freqs2[4];
-	freqs2[0] = freqs[4];
-	freqs2[1] = freqs[5];
-	freqs2[2] = freqs[6];
-	freqs2[3] = freqs[7];
+	freqs2[0] = freqs[3];
+	freqs2[1] = freqs[6];
+	freqs2[2] = freqs[31];
+	freqs2[3] = freqs[50];
 
 	float t = field(p,freqs2[2]);
 	float v = (1. - exp((abs(uv.x) - 1.) * 6.)) * (1. - exp((abs(uv.y) - 1.) * 6.));
